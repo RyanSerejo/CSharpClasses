@@ -1,0 +1,22 @@
+using System;
+
+class Aula08{
+    static void Main(){
+        int v1, v2, sum;
+        string name;
+
+        Console.Write("What's your name?\n");
+        name = Console.ReadLine();
+        
+        Console.Write("Put the first number\n");
+        v1 = int.Parse(Console.ReadLine());
+
+        
+        Console.Write("Put the second number\n");
+        v2 = Convert.ToInt32(Console.ReadLine());
+        sum = v1 + v2;
+        
+        Console.WriteLine("Hello {3}, the sum between {0} and {1} is {2}.", v1, v2, sum, name);
+    
+    }
+}
