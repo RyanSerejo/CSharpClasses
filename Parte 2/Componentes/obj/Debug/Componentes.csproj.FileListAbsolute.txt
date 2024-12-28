@@ -1,0 +1,10 @@
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\Componentes.exe.config
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\Componentes.exe
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\Componentes.pdb
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.csproj.AssemblyReference.cache
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_Main.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.Properties.Resources.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.exe
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.pdb
