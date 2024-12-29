@@ -36,7 +36,6 @@
             this.tb_listaVeiculos.Location = new System.Drawing.Point(14, 21);
             this.tb_listaVeiculos.Multiline = true;
             this.tb_listaVeiculos.Name = "tb_listaVeiculos";
-            this.tb_listaVeiculos.ReadOnly = true;
             this.tb_listaVeiculos.Size = new System.Drawing.Size(618, 465);
             this.tb_listaVeiculos.TabIndex = 0;
             // 
@@ -48,6 +47,7 @@
             this.Name = "F_Veiculos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Veículos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.F_Veiculos_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
