@@ -33,6 +33,7 @@
             this.tb_veiculo = new System.Windows.Forms.TextBox();
             this.tb_listaVeiculo = new System.Windows.Forms.TextBox();
             this.btn_Clear = new System.Windows.Forms.Button();
+            this.button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_add
@@ -66,6 +67,7 @@
             this.tb_listaVeiculo.Location = new System.Drawing.Point(16, 79);
             this.tb_listaVeiculo.Multiline = true;
             this.tb_listaVeiculo.Name = "tb_listaVeiculo";
+            this.tb_listaVeiculo.ReadOnly = true;
             this.tb_listaVeiculo.Size = new System.Drawing.Size(460, 215);
             this.tb_listaVeiculo.TabIndex = 3;
             // 
@@ -79,11 +81,22 @@
             this.btn_Clear.UseVisualStyleBackColor = true;
             this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
+            // button
+            // 
+            this.button.Location = new System.Drawing.Point(16, 334);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(461, 23);
+            this.button.TabIndex = 5;
+            this.button.Text = "Mostrar";
+            this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.button_Click);
+            // 
             // F_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 455);
+            this.Controls.Add(this.button);
             this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.tb_listaVeiculo);
             this.Controls.Add(this.tb_veiculo);
@@ -106,6 +119,7 @@
         private System.Windows.Forms.TextBox tb_veiculo;
         private System.Windows.Forms.TextBox tb_listaVeiculo;
         private System.Windows.Forms.Button btn_Clear;
+        private System.Windows.Forms.Button button;
     }
 }
 
