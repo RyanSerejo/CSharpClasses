@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "F_checkedListBox.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkedListBox.cs",
-              "RelativeDocumentMoniker": "F_checkedListBox.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkedListBox.cs [Design]",
-              "RelativeToolTip": "F_checkedListBox.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "F_checkBox.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkBox.cs",
+              "RelativeDocumentMoniker": "F_checkBox.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkBox.cs",
+              "RelativeToolTip": "F_checkBox.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwCgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T00:20:44.237Z",
+              "WhenOpened": "2024-12-30T18:29:42.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "F_checkBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkBox.cs",
+              "RelativeDocumentMoniker": "F_checkBox.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkBox.cs [Design]",
+              "RelativeToolTip": "F_checkBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:25:07.937Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAawEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAewEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T00:17:38.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
