@@ -35,6 +35,11 @@
             this.btn_Clear = new System.Windows.Forms.Button();
             this.button = new System.Windows.Forms.Button();
             this.btn_valueNum = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_add
@@ -102,6 +107,39 @@
             this.btn_valueNum.UseVisualStyleBackColor = true;
             this.btn_valueNum.Click += new System.EventHandler(this.btn_valueNum_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(497, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // cToolStripMenuItem
+            // 
+            this.cToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkboxToolStripMenuItem,
+            this.checkedListBoxToolStripMenuItem1});
+            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.cToolStripMenuItem.Text = "Componentes";
+            // 
+            // checkboxToolStripMenuItem
+            // 
+            this.checkboxToolStripMenuItem.Name = "checkboxToolStripMenuItem";
+            this.checkboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkboxToolStripMenuItem.Text = "Checkbox";
+            this.checkboxToolStripMenuItem.Click += new System.EventHandler(this.checkboxToolStripMenuItem_Click);
+            // 
+            // checkedListBoxToolStripMenuItem1
+            // 
+            this.checkedListBoxToolStripMenuItem1.Name = "checkedListBoxToolStripMenuItem1";
+            this.checkedListBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem1.Text = "CheckedListBox";
+            this.checkedListBoxToolStripMenuItem1.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem1_Click);
+            // 
             // F_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -114,11 +152,15 @@
             this.Controls.Add(this.tb_veiculo);
             this.Controls.Add(this.lb_veiculo);
             this.Controls.Add(this.btn_add);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "F_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Componentes";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,6 +175,10 @@
         private System.Windows.Forms.Button button;
         public System.Windows.Forms.TextBox tb_listaVeiculo;
         private System.Windows.Forms.Button btn_valueNum;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkboxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem1;
     }
 }
 

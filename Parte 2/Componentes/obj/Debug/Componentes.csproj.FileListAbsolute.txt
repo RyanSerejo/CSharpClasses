@@ -9,3 +9,5 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Component
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.exe
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.pdb
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_Veiculos.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_checkBox.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_CheckedListBox.resources
