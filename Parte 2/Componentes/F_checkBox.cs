@@ -43,5 +43,11 @@ namespace Componentes
             }
 
         }
+
+        private void btn_showSon_Click(object sender, EventArgs e)
+        {
+            F_filhoCheckBox f_FilhoCheckBox = new F_filhoCheckBox();
+            f_FilhoCheckBox.ShowDialog();
+        }
     }
 }
