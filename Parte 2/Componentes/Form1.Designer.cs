@@ -39,6 +39,8 @@
             this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkedListBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,7 +123,9 @@
             // 
             this.cToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkboxToolStripMenuItem,
-            this.checkedListBoxToolStripMenuItem1});
+            this.checkedListBoxToolStripMenuItem1,
+            this.comboBoxToolStripMenuItem,
+            this.dateTimePickerToolStripMenuItem});
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
             this.cToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.cToolStripMenuItem.Text = "Componentes";
@@ -139,6 +143,20 @@
             this.checkedListBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.checkedListBoxToolStripMenuItem1.Text = "CheckedListBox";
             this.checkedListBoxToolStripMenuItem1.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem1_Click);
+            // 
+            // comboBoxToolStripMenuItem
+            // 
+            this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comboBoxToolStripMenuItem.Text = "ComboBox";
+            this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
+            // 
+            // dateTimePickerToolStripMenuItem
+            // 
+            this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
+            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dateTimePickerToolStripMenuItem.Text = "DateTimePicker";
+            this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -179,6 +197,8 @@
         private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkboxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dateTimePickerToolStripMenuItem;
     }
 }
 

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_datetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_datetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_checkedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_datetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_datetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "F_checkedListBox.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkedListBox.cs",
-              "RelativeDocumentMoniker": "F_checkedListBox.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkedListBox.cs",
-              "RelativeToolTip": "F_checkedListBox.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAEwCMAAABEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "F_DateTimePicker.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_DateTimePicker.cs",
+              "RelativeDocumentMoniker": "F_DateTimePicker.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_DateTimePicker.cs",
+              "RelativeToolTip": "F_DateTimePicker.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAEwCoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T19:00:13.233Z",
+              "WhenOpened": "2025-01-02T17:26:57.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "F_checkedListBox.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkedListBox.cs",
-              "RelativeDocumentMoniker": "F_checkedListBox.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_checkedListBox.cs [Design]",
-              "RelativeToolTip": "F_checkedListBox.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "F_DateTimePicker.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_DateTimePicker.cs",
+              "RelativeDocumentMoniker": "F_DateTimePicker.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_DateTimePicker.cs [Design]",
+              "RelativeToolTip": "F_DateTimePicker.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T18:54:28.052Z",
+              "WhenOpened": "2025-01-02T17:25:06.95Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAwwEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAvwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T00:17:38.836Z"
+              "WhenOpened": "2024-12-30T00:17:38.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T01:31:25.521Z"
+              "WhenOpened": "2024-12-29T01:31:25.521Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
