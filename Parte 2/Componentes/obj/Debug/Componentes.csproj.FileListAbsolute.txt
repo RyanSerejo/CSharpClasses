@@ -14,3 +14,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Component
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_filhoCheckBox.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_ComboBox.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_DateTimePicker.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_LinkLabel.resources
