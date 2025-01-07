@@ -24,6 +24,14 @@ namespace Componentes
             tb_qtde.Clear();
             tb_preco.Clear();
         }
+
+        private void Obter()
+        {
+            tb_id.Text = lv_produtos.SelectedItems[0].SubItems[0].Text;
+            tb_produto.Text = lv_produtos.SelectedItems[0].SubItems[1].Text;
+            tb_qtde.Text = lv_produtos.SelectedItems[0].SubItems[2].Text;
+            tb_preco.Text = lv_produtos.SelectedItems[0].SubItems[3].Text;
+        }
         private void btn_add_Click(object sender, EventArgs e)
         {
             if (tb_id.Text == "")
@@ -59,17 +67,15 @@ namespace Componentes
 
         private void btn_get_Click(object sender, EventArgs e)
         {
-           try
-            {
-                tb_id.Text = lv_produtos.SelectedItems[0].SubItems[0].Text;
-                tb_produto.Text = lv_produtos.SelectedItems[0].SubItems[1].Text;
-                tb_qtde.Text = lv_produtos.SelectedItems[0].SubItems[2].Text;
-                tb_preco.Text = lv_produtos.SelectedItems[0].SubItems[3].Text;
-            } catch
-            {
-                MessageBox.Show("Selecione uma linha para obter os dados");
+            Obter();
+        }
+
+        private void lv_produtos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lv_produtos.SelectedIndices.Count > 0) {
+                Obter();
             }
-             
+            
         }
     }
 }

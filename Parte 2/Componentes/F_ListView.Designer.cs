@@ -81,6 +81,7 @@
             this.lv_produtos.TabIndex = 0;
             this.lv_produtos.UseCompatibleStateImageBehavior = false;
             this.lv_produtos.View = System.Windows.Forms.View.Details;
+            this.lv_produtos.SelectedIndexChanged += new System.EventHandler(this.lv_produtos_SelectedIndexChanged);
             // 
             // col_id
             // 
