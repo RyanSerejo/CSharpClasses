@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_maskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_maskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\f_listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_maskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_maskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,26 +31,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "F_ListView.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ListView.cs",
-              "RelativeDocumentMoniker": "F_ListView.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ListView.cs",
-              "RelativeToolTip": "F_ListView.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwEsAAAAYAAAAAAAAAA==",
+              "Title": "F_MaskedTextBox.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_MaskedTextBox.cs",
+              "RelativeDocumentMoniker": "F_MaskedTextBox.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_MaskedTextBox.cs",
+              "RelativeToolTip": "F_MaskedTextBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T21:29:19.16Z",
+              "WhenOpened": "2025-01-08T19:53:10.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "F_ListView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ListView.cs",
-              "RelativeDocumentMoniker": "F_ListView.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ListView.cs [Design]",
-              "RelativeToolTip": "F_ListView.cs [Design]",
+              "Title": "F_MaskedTextBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_MaskedTextBox.cs",
+              "RelativeDocumentMoniker": "F_MaskedTextBox.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_MaskedTextBox.cs [Design]",
+              "RelativeToolTip": "F_MaskedTextBox.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T21:18:24.595Z",
+              "WhenOpened": "2025-01-08T19:38:56.664Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -61,9 +61,10 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAnwFwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAvwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T00:17:38.836Z"
+              "WhenOpened": "2024-12-30T00:17:38.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +75,8 @@
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T01:31:25.521Z"
+              "WhenOpened": "2024-12-29T01:31:25.521Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
