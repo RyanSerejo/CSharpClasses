@@ -34,11 +34,7 @@ namespace Componentes
 
         private void cb_mostrarSenha_CheckedChanged(object sender, EventArgs e)
         {
-            string vazio = "";
-            if (cb_mostrarSenha.Checked)
-            {
-                mtb_senha.PasswordChar = vazio;
-            }
+           
         }
     }
 }
