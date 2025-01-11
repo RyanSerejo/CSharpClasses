@@ -19,3 +19,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Component
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_ListView.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_MaskedTextBox.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_MonthCalendar.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_NumericUpDown.resources
