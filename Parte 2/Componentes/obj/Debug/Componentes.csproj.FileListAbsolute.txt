@@ -21,3 +21,5 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Component
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_MonthCalendar.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_NumericUpDown.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_PictureBox.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_ProgressBar.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_RadioButton.resources

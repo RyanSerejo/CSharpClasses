@@ -49,12 +49,14 @@
             this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.monthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.progressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Fechar = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -147,7 +149,9 @@
             this.maskedTextBoxToolStripMenuItem,
             this.monthCalendarToolStripMenuItem,
             this.numericUpDownToolStripMenuItem,
-            this.pictureBoxToolStripMenuItem});
+            this.pictureBoxToolStripMenuItem,
+            this.progressBarToolStripMenuItem,
+            this.radioButtonToolStripMenuItem});
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
             this.cToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.cToolStripMenuItem.Text = "Componentes";
@@ -222,6 +226,20 @@
             this.numericUpDownToolStripMenuItem.Text = "NumericUpDown";
             this.numericUpDownToolStripMenuItem.Click += new System.EventHandler(this.numericUpDownToolStripMenuItem_Click);
             // 
+            // pictureBoxToolStripMenuItem
+            // 
+            this.pictureBoxToolStripMenuItem.Name = "pictureBoxToolStripMenuItem";
+            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pictureBoxToolStripMenuItem.Text = "PictureBox";
+            this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
+            // 
+            // progressBarToolStripMenuItem
+            // 
+            this.progressBarToolStripMenuItem.Name = "progressBarToolStripMenuItem";
+            this.progressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.progressBarToolStripMenuItem.Text = "ProgressBar";
+            this.progressBarToolStripMenuItem.Click += new System.EventHandler(this.progressBarToolStripMenuItem_Click);
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
@@ -257,12 +275,12 @@
             this.tsmi_Fechar.Size = new System.Drawing.Size(133, 22);
             this.tsmi_Fechar.Text = "Fechar";
             // 
-            // pictureBoxToolStripMenuItem
+            // radioButtonToolStripMenuItem
             // 
-            this.pictureBoxToolStripMenuItem.Name = "pictureBoxToolStripMenuItem";
-            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pictureBoxToolStripMenuItem.Text = "PictureBox";
-            this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
+            this.radioButtonToolStripMenuItem.Name = "radioButtonToolStripMenuItem";
+            this.radioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.radioButtonToolStripMenuItem.Text = "RadioButton";
+            this.radioButtonToolStripMenuItem.Click += new System.EventHandler(this.radioButtonToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -318,6 +336,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmi_Fechar;
         private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem progressBarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radioButtonToolStripMenuItem;
     }
 }
 
