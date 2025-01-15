@@ -1,0 +1,10 @@
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\bin\Debug\Editor de Texto.exe.config
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\bin\Debug\Editor de Texto.exe
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\bin\Debug\Editor de Texto.pdb
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor de Texto.csproj.AssemblyReference.cache
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor_de_Texto.Form1.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor_de_Texto.Properties.Resources.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor de Texto.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor de Texto.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor de Texto.exe
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Editor de Texto\obj\Debug\Editor de Texto.pdb
