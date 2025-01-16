@@ -30,11 +30,11 @@
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.salvcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,14 +51,14 @@
             this.esquerdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.direitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.justificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btn_novo = new System.Windows.Forms.ToolStripButton();
             this.btn_abrir = new System.Windows.Forms.ToolStripButton();
             this.btn_salvar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btn_copiar = new System.Windows.Forms.ToolStripButton();
             this.btn_colar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btn_negrito = new System.Windows.Forms.ToolStripButton();
             this.btn_italico = new System.Windows.Forms.ToolStripButton();
             this.btn_sublinhado = new System.Windows.Forms.ToolStripButton();
@@ -67,6 +67,11 @@
             this.btn_centralizar = new System.Windows.Forms.ToolStripButton();
             this.btn_esquerda = new System.Windows.Forms.ToolStripButton();
             this.btn_direita = new System.Windows.Forms.ToolStripButton();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -91,30 +96,6 @@
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btn_novo,
-            this.btn_abrir,
-            this.btn_salvar,
-            this.toolStripSeparator1,
-            this.btn_copiar,
-            this.btn_colar,
-            this.toolStripSeparator2,
-            this.btn_negrito,
-            this.btn_italico,
-            this.btn_sublinhado,
-            this.btn_fonte,
-            this.toolStripSeparator3,
-            this.btn_centralizar,
-            this.btn_esquerda,
-            this.btn_direita});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
-            this.toolStrip1.TabIndex = 2;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
             // novoToolStripMenuItem
             // 
             this.novoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -131,8 +112,9 @@
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abrirToolStripMenuItem.Text = "Novo";
+            this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
             // abrirToolStripMenuItem1
             // 
@@ -143,8 +125,15 @@
             // salvcaToolStripMenuItem
             // 
             this.salvcaToolStripMenuItem.Name = "salvcaToolStripMenuItem";
-            this.salvcaToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.salvcaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salvcaToolStripMenuItem.Text = "Salvar";
+            this.salvcaToolStripMenuItem.Click += new System.EventHandler(this.salvcaToolStripMenuItem_Click);
+            // 
+            // imprimirToolStripMenuItem
+            // 
+            this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
+            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.imprimirToolStripMenuItem.Text = "Imprimir";
             // 
             // toolStripMenuItem2
             // 
@@ -256,21 +245,29 @@
             this.justificarToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.justificarToolStripMenuItem.Text = "Justificar";
             // 
-            // imprimirToolStripMenuItem
+            // toolStrip1
             // 
-            this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
-            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
-            this.imprimirToolStripMenuItem.Text = "Imprimir";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btn_novo,
+            this.btn_abrir,
+            this.btn_salvar,
+            this.toolStripSeparator1,
+            this.btn_copiar,
+            this.btn_colar,
+            this.toolStripSeparator2,
+            this.btn_negrito,
+            this.btn_italico,
+            this.btn_sublinhado,
+            this.btn_fonte,
+            this.toolStripSeparator3,
+            this.btn_centralizar,
+            this.btn_esquerda,
+            this.btn_direita});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.TabIndex = 2;
+            this.toolStrip1.Text = "toolStrip1";
             // 
             // btn_novo
             // 
@@ -280,6 +277,7 @@
             this.btn_novo.Name = "btn_novo";
             this.btn_novo.Size = new System.Drawing.Size(23, 22);
             this.btn_novo.Text = "Novo";
+            this.btn_novo.Click += new System.EventHandler(this.btn_novo_Click);
             // 
             // btn_abrir
             // 
@@ -298,6 +296,12 @@
             this.btn_salvar.Name = "btn_salvar";
             this.btn_salvar.Size = new System.Drawing.Size(23, 22);
             this.btn_salvar.Text = "Salvar";
+            this.btn_salvar.Click += new System.EventHandler(this.btn_salvar_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // btn_copiar
             // 
@@ -316,6 +320,11 @@
             this.btn_colar.Name = "btn_colar";
             this.btn_colar.Size = new System.Drawing.Size(23, 22);
             this.btn_colar.Text = "Colar";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // btn_negrito
             // 
@@ -385,6 +394,18 @@
             this.btn_direita.Size = new System.Drawing.Size(23, 22);
             this.btn_direita.Text = "Alinhar à direita";
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "pdf";
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -448,6 +469,11 @@
         private System.Windows.Forms.ToolStripButton btn_centralizar;
         private System.Windows.Forms.ToolStripButton btn_esquerda;
         private System.Windows.Forms.ToolStripButton btn_direita;
+        private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
 

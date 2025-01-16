@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7FAEFA7B-A392-4D4F-AD57-8ABE2AEC1EE9}|Editor de Texto.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\editor de texto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FAEFA7B-A392-4D4F-AD57-8ABE2AEC1EE9}|Editor de Texto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FAEFA7B-A392-4D4F-AD57-8ABE2AEC1EE9}|Editor de Texto.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\editor de texto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FAEFA7B-A392-4D4F-AD57-8ABE2AEC1EE9}|Editor de Texto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Editor de Texto\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Editor de Texto\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:16:27.574Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Editor de Texto\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Editor de Texto\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Editor de Texto\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T18:54:03.939Z",
               "EditorCaption": " [Design]"
