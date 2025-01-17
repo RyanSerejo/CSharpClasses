@@ -64,5 +64,43 @@ namespace Editor_de_Texto
         {
             Salvar();
         }
+
+        private void Abrir()
+        {
+            this.openFileDialog1.Title = "Abrir Arquivo";
+            openFileDialog1.InitialDirectory = @"C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Editor de Texto";
+            openFileDialog1.Filter = "(*.CFB)|*.CFB";
+
+            DialogResult dr = this.openFileDialog1.ShowDialog();
+            if (dr == System.Windows.Forms.DialogResult.OK) {
+                try
+                {
+                    FileStream arquivo = new FileStream(openFileDialog1.FileName, FileMode.Open, FileAccess.Read);
+                    StreamReader streamReader = new StreamReader(arquivo);
+                    streamReader.BaseStream.Seek(0, SeekOrigin.Begin);
+                    this.richTextBox1.Text = "";
+                    string line = streamReader.ReadLine();
+                    while (line != null) { 
+                        this.richTextBox1.Text += line + "\n";
+                        line = streamReader.ReadLine();
+                    }
+                    streamReader.Close();
+                }
+                catch (Exception ex) { 
+                MessageBox.Show("Erro na leitura: " + ex.Message, "Erro ao ler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        }
+
+        private void btn_abrir_Click(object sender, EventArgs e)
+        {
+            Abrir();
+        }
+
+        private void abrirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Abrir();
+        }
     }
 }
