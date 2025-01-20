@@ -144,14 +144,48 @@ namespace Editor_de_Texto
         private void Negrito(){
             string fontName = richTextBox1.Font.Name;
             float fontSize = richTextBox1.Font.Size;
-            bool negr = richTextBox1.Font.Bold;
+            bool n, i, s;
+            n = richTextBox1.SelectionFont.Bold;
+            i = richTextBox1.SelectionFont.Italic;
+            s = richTextBox1.SelectionFont.Underline;
 
-            if (negr == true)
+            richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Regular);
+            if (n == false)
             {
-                richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Regular);
+                if (i == true & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline);
+                }
+                else if (i == true & s == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Italic);
+
+                }
+                else if (i == false & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Underline);
+
+                }
+                else if (i == false & s == false) { 
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold);
+                }
             }
-            else { 
-                richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold);
+            else {
+                if (i == true & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic | FontStyle.Underline);
+                }
+                else if (i == true & s == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic);
+
+                }
+                else if (i == false & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Underline);
+
+                }
+               
             }
         }
 
@@ -159,15 +193,50 @@ namespace Editor_de_Texto
         {
             string fontName = richTextBox1.Font.Name;
             float fontSize = richTextBox1.Font.Size;
-            bool italic = richTextBox1.Font.Italic;
+            bool n, i, s;
+            n = richTextBox1.SelectionFont.Bold;
+            i = richTextBox1.SelectionFont.Italic;
+            s = richTextBox1.SelectionFont.Underline;
 
-            if (italic == false)
+            richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Regular);
+            if (i == false)
             {
-                richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic);
+                if (n == true & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline);
+                }
+                else if (n == true & s == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Italic);
+
+                }
+                else if (n == false & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic | FontStyle.Underline);
+
+                } else if (n == false & s == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic);
+
+                }
             }
             else
             {
-                richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic);
+                if (n == true & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Underline);
+                }
+                else if (n == true & s == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold);
+
+                }
+                else if (n == false & s == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Underline);
+
+                }
+
             }
         }
 
@@ -175,15 +244,48 @@ namespace Editor_de_Texto
         {
             string fontName = richTextBox1.Font.Name;
             float fontSize = richTextBox1.Font.Size;
-            bool sub = richTextBox1.Font.Underline;
+            bool n, i, s;
+            n = richTextBox1.SelectionFont.Bold;
+            i = richTextBox1.SelectionFont.Italic;
+            s = richTextBox1.SelectionFont.Underline;
 
-            if (sub == false)
+            richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Regular);
+            if (s == false)
             {
-                richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Underline);
+                if (n == true & i == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline);
+                }
+                else if (n == true & i == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Underline);
+
+                }
+                else if (n == false & i == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic | FontStyle.Underline);
+
+                } else if (n == false & i == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Underline);
+                }
             }
             else
             {
-                richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Underline);
+                if (n == true & i == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold | FontStyle.Italic);
+                }
+                else if (n == true & i == false)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Bold);
+
+                }
+                else if (n == false & i == true)
+                {
+                    richTextBox1.SelectionFont = new Font(fontName, fontSize, FontStyle.Italic);
+                }
+
             }
         }
 
