@@ -156,5 +156,17 @@ namespace Componentes
             F_TreeView f_TreeView = new F_TreeView();
             f_TreeView.ShowDialog();    
         }
+
+        private void webBroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_WebBrowser f_WebBrowser = new F_WebBrowser();
+            f_WebBrowser.ShowDialog();
+        }
+
+        private void splitContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_SplitContainer f_SplitContainer = new F_SplitContainer();
+            f_SplitContainer.ShowDialog();  
+        }
     }
 }
