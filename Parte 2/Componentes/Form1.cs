@@ -186,5 +186,11 @@ namespace Componentes
             F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
             f_ToolStripContainer.ShowDialog();
         }
+
+        private void backgroundWorkerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_BackgroundWorker f_BackgroundWorker   = new F_BackgroundWorker();
+            f_BackgroundWorker.ShowDialog();    
+        }
     }
 }

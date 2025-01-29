@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_toolstripcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_toolstripcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_backgroundworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_backgroundworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_toolstripcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_toolstripcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_backgroundworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_backgroundworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -27,26 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "F_ToolStripContainer.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ToolStripContainer.cs",
-              "RelativeDocumentMoniker": "F_ToolStripContainer.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ToolStripContainer.cs",
-              "RelativeToolTip": "F_ToolStripContainer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAewB4AAAANAAAAAAAAAA==",
+              "Title": "F_BackgroundWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_BackgroundWorker.cs",
+              "RelativeDocumentMoniker": "F_BackgroundWorker.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_BackgroundWorker.cs",
+              "RelativeToolTip": "F_BackgroundWorker.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIA8wDIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:14:19.447Z",
+              "WhenOpened": "2025-01-29T17:52:37.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "F_ToolStripContainer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ToolStripContainer.cs",
-              "RelativeDocumentMoniker": "F_ToolStripContainer.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_ToolStripContainer.cs [Design]",
-              "RelativeToolTip": "F_ToolStripContainer.cs [Design]",
+              "Title": "F_BackgroundWorker.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_BackgroundWorker.cs",
+              "RelativeDocumentMoniker": "F_BackgroundWorker.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_BackgroundWorker.cs [Design]",
+              "RelativeToolTip": "F_BackgroundWorker.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:09:31.15Z",
+              "WhenOpened": "2025-01-29T17:51:18.715Z",
               "EditorCaption": " [Design]"
             },
             {
