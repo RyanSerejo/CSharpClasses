@@ -198,5 +198,11 @@ namespace Componentes
             Timer f_Timer = new Timer();
             f_Timer.ShowDialog();
         }
+
+        private void sQLiteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            F_SQLite f_SQLite = new F_SQLite();
+            f_SQLite.ShowDialog();
+        }
     }
 }

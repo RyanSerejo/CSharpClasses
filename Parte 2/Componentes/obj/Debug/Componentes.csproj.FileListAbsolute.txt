@@ -32,3 +32,13 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Component
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_ToolStripContainer.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_BackgroundWorker.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.Timer.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\EntityFramework.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\EntityFramework.xml
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\bin\Debug\System.Data.SQLite.xml
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componentes.F_SQLite.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\Componentes\obj\Debug\Componen.CB782757.Up2Date

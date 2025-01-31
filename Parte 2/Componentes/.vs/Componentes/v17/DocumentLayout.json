@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\componentes\\f_sqlite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3615327A-B347-499D-B82F-7ED0D3F27AEC}|Componentes.csproj|solutionrelative:f_sqlite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,31 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "F_Timer.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_Timer.cs",
-              "RelativeDocumentMoniker": "F_Timer.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_Timer.cs",
-              "RelativeToolTip": "F_Timer.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwEIAAAApAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAIA3wLoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T00:55:52.402Z",
+              "WhenOpened": "2025-01-31T22:21:48.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "F_Timer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_Timer.cs",
-              "RelativeDocumentMoniker": "F_Timer.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_Timer.cs [Design]",
-              "RelativeToolTip": "F_Timer.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "F_SQLite.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_SQLite.cs",
+              "RelativeDocumentMoniker": "F_SQLite.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\F_SQLite.cs [Design]",
+              "RelativeToolTip": "F_SQLite.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T00:53:26.708Z",
+              "WhenOpened": "2025-01-31T22:20:02.819Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\Componentes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
