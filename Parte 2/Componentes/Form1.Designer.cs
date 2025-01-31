@@ -59,12 +59,13 @@
             this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabLayoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Fechar = new System.Windows.Forms.ToolStripMenuItem();
-            this.backgroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -167,7 +168,8 @@
             this.tabControlToolStripMenuItem,
             this.tabLayoutToolStripMenuItem,
             this.toolStripContainerToolStripMenuItem,
-            this.backgroundWorkerToolStripMenuItem});
+            this.backgroundWorkerToolStripMenuItem,
+            this.timerToolStripMenuItem});
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
             this.cToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.cToolStripMenuItem.Text = "Componentes";
@@ -312,6 +314,13 @@
             this.toolStripContainerToolStripMenuItem.Text = "ToolStripContainer";
             this.toolStripContainerToolStripMenuItem.Click += new System.EventHandler(this.toolStripContainerToolStripMenuItem_Click);
             // 
+            // backgroundWorkerToolStripMenuItem
+            // 
+            this.backgroundWorkerToolStripMenuItem.Name = "backgroundWorkerToolStripMenuItem";
+            this.backgroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.backgroundWorkerToolStripMenuItem.Text = "BackgroundWorker";
+            this.backgroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backgroundWorkerToolStripMenuItem_Click);
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
@@ -347,12 +356,12 @@
             this.tsmi_Fechar.Size = new System.Drawing.Size(133, 22);
             this.tsmi_Fechar.Text = "Fechar";
             // 
-            // backgroundWorkerToolStripMenuItem
+            // timerToolStripMenuItem
             // 
-            this.backgroundWorkerToolStripMenuItem.Name = "backgroundWorkerToolStripMenuItem";
-            this.backgroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.backgroundWorkerToolStripMenuItem.Text = "BackgroundWorker";
-            this.backgroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backgroundWorkerToolStripMenuItem_Click);
+            this.timerToolStripMenuItem.Name = "timerToolStripMenuItem";
+            this.timerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.timerToolStripMenuItem.Text = "Timer";
+            this.timerToolStripMenuItem.Click += new System.EventHandler(this.timerToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -418,6 +427,7 @@
         private System.Windows.Forms.ToolStripMenuItem tabLayoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripContainerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem backgroundWorkerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem timerToolStripMenuItem;
     }
 }
 
