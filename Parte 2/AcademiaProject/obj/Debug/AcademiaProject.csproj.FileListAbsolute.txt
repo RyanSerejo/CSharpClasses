@@ -17,3 +17,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\Acade
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\Academia.850B643D.Up2Date
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.exe
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.pdb
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_Login.resources

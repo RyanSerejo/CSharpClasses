@@ -10,13 +10,14 @@ using System.Windows.Forms;
 
 namespace AcademiaProject
 {
-    public partial class Form1 : Form
+    public partial class F_Login : Form
     {
-        public Form1()
+        Form1 form1;
+        public F_Login(Form1 f)
         {
             InitializeComponent();
-            F_Login f_login = new F_Login(this);
-            f_login.ShowDialog();
+            form1 = f;
+
         }
     }
 }

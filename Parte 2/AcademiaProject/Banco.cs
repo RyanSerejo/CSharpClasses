@@ -17,5 +17,26 @@ namespace AcademiaProject
             conexao.Open();
             return conexao;
         }
+
+        public static DataTable GetAllUsers() {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+            try
+            {
+                using (var cmd = ConexaoBanco().CreateCommand())
+                {
+                    cmd.CommandText = "SELECT * FROM tb_users";
+                    da = new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
+                    da .Fill(dt);
+                    return dt;
+                }
+            }
+            catch (Exception ex) {
+                throw ex;
+            }
+        }
+            
+        
     }
 }
