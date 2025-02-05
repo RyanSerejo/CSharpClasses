@@ -29,13 +29,18 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pb_ledLogado = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lb_acesso = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.lb_nomeUsuario = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lb_acesso = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pb_ledLogado = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.lOGINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lOGONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lOGOFFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledLogado)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -52,33 +57,14 @@
             this.panel1.Size = new System.Drawing.Size(794, 38);
             this.panel1.TabIndex = 0;
             // 
-            // pb_ledLogado
+            // lb_nomeUsuario
             // 
-            this.pb_ledLogado.Image = global::AcademiaProject.Properties.Resources.redLed;
-            this.pb_ledLogado.Location = new System.Drawing.Point(3, 3);
-            this.pb_ledLogado.Name = "pb_ledLogado";
-            this.pb_ledLogado.Size = new System.Drawing.Size(30, 30);
-            this.pb_ledLogado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_ledLogado.TabIndex = 0;
-            this.pb_ledLogado.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Acesso:";
-            // 
-            // lb_acesso
-            // 
-            this.lb_acesso.AutoSize = true;
-            this.lb_acesso.Location = new System.Drawing.Point(78, 12);
-            this.lb_acesso.Name = "lb_acesso";
-            this.lb_acesso.Size = new System.Drawing.Size(13, 13);
-            this.lb_acesso.TabIndex = 2;
-            this.lb_acesso.Text = "0";
+            this.lb_nomeUsuario.AutoSize = true;
+            this.lb_nomeUsuario.Location = new System.Drawing.Point(149, 12);
+            this.lb_nomeUsuario.Name = "lb_nomeUsuario";
+            this.lb_nomeUsuario.Size = new System.Drawing.Size(16, 13);
+            this.lb_nomeUsuario.TabIndex = 5;
+            this.lb_nomeUsuario.Text = "---";
             // 
             // label3
             // 
@@ -89,14 +75,66 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Usuário:";
             // 
-            // lb_nomeUsuario
+            // lb_acesso
             // 
-            this.lb_nomeUsuario.AutoSize = true;
-            this.lb_nomeUsuario.Location = new System.Drawing.Point(149, 12);
-            this.lb_nomeUsuario.Name = "lb_nomeUsuario";
-            this.lb_nomeUsuario.Size = new System.Drawing.Size(16, 13);
-            this.lb_nomeUsuario.TabIndex = 5;
-            this.lb_nomeUsuario.Text = "---";
+            this.lb_acesso.AutoSize = true;
+            this.lb_acesso.Location = new System.Drawing.Point(78, 12);
+            this.lb_acesso.Name = "lb_acesso";
+            this.lb_acesso.Size = new System.Drawing.Size(13, 13);
+            this.lb_acesso.TabIndex = 2;
+            this.lb_acesso.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Acesso:";
+            // 
+            // pb_ledLogado
+            // 
+            this.pb_ledLogado.Image = global::AcademiaProject.Properties.Resources.redLed;
+            this.pb_ledLogado.Location = new System.Drawing.Point(3, 3);
+            this.pb_ledLogado.Name = "pb_ledLogado";
+            this.pb_ledLogado.Size = new System.Drawing.Size(30, 30);
+            this.pb_ledLogado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_ledLogado.TabIndex = 0;
+            this.pb_ledLogado.TabStop = false;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lOGINToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(794, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // lOGINToolStripMenuItem
+            // 
+            this.lOGINToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lOGONToolStripMenuItem,
+            this.lOGOFFToolStripMenuItem});
+            this.lOGINToolStripMenuItem.Name = "lOGINToolStripMenuItem";
+            this.lOGINToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.lOGINToolStripMenuItem.Text = "LOGIN";
+            // 
+            // lOGONToolStripMenuItem
+            // 
+            this.lOGONToolStripMenuItem.Name = "lOGONToolStripMenuItem";
+            this.lOGONToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lOGONToolStripMenuItem.Text = "Logon";
+            this.lOGONToolStripMenuItem.Click += new System.EventHandler(this.lOGONToolStripMenuItem_Click);
+            // 
+            // lOGOFFToolStripMenuItem
+            // 
+            this.lOGOFFToolStripMenuItem.Name = "lOGOFFToolStripMenuItem";
+            this.lOGOFFToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lOGOFFToolStripMenuItem.Text = "Logoff";
+            this.lOGOFFToolStripMenuItem.Click += new System.EventHandler(this.lOGOFFToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -104,13 +142,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(794, 491);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RealGym - v 1.0";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledLogado)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -119,9 +162,13 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.PictureBox pb_ledLogado;
-        private System.Windows.Forms.Label lb_nomeUsuario;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lb_acesso;
+        public System.Windows.Forms.Label lb_nomeUsuario;
+        public System.Windows.Forms.Label lb_acesso;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem lOGINToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lOGONToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lOGOFFToolStripMenuItem;
     }
 }
 

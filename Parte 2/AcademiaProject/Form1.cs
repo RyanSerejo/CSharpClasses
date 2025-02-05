@@ -18,5 +18,21 @@ namespace AcademiaProject
             F_Login f_login = new F_Login(this);
             f_login.ShowDialog();
         }
+
+        private void lOGONToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Login f_login = new F_Login(this);
+            f_login.ShowDialog();
+        }
+
+        private void lOGOFFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lb_acesso.Text = "0";
+            lb_nomeUsuario.Text = "---";
+            pb_ledLogado.Image = Properties.Resources.redLed;
+            Globais.nivel = 0;
+            Globais.logado = false;
+            
+        }
     }
 }
