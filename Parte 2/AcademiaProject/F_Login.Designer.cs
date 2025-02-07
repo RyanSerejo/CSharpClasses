@@ -51,6 +51,7 @@
             this.tb_username.Name = "tb_username";
             this.tb_username.Size = new System.Drawing.Size(232, 20);
             this.tb_username.TabIndex = 1;
+            this.tb_username.Text = "ElegantSteps";
             // 
             // tb_password
             // 
@@ -59,6 +60,7 @@
             this.tb_password.PasswordChar = '*';
             this.tb_password.Size = new System.Drawing.Size(232, 20);
             this.tb_password.TabIndex = 2;
+            this.tb_password.Text = "1234";
             // 
             // label2
             // 
