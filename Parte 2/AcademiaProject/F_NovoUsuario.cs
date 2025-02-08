@@ -25,6 +25,32 @@ namespace AcademiaProject
             usuario.senha = tb_senha.Text;
             usuario.status = cb_status.Text;
             usuario.nivel = Convert.ToInt32(Math.Round(n_nivel.Value,0));
+            Banco.NovoUsuario(usuario);
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            tb_name.Clear();
+            tb_senha.Clear();
+            tb_username.Clear();
+            n_nivel.Value = 0;
+            cb_status.Text = "";
+            
+        }
+
+        private void btn_fechar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btn_novo_Click(object sender, EventArgs e)
+        {
+            tb_name.Clear();
+            tb_senha.Clear();
+            tb_username.Clear();
+            cb_status.Text = "";
+            n_nivel.Value = 0;
+            tb_name.Focus();
         }
     }
 }
