@@ -7,15 +7,11 @@
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +19,11 @@
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "F_GestaoUsuarios.cs",
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoUsuarios.cs",
               "RelativeToolTip": "F_GestaoUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T23:59:30.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -100,8 +100,7 @@
               "RelativeToolTip": "Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T02:21:01.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T02:21:01.36Z"
             },
             {
               "$type": "Document",
@@ -113,18 +112,17 @@
               "RelativeToolTip": "F_NovoUsuario.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T00:19:00.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T00:19:00.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Banco.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Banco.cs",
               "RelativeDocumentMoniker": "Banco.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Banco.cs",
-              "RelativeToolTip": "Banco.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwFIAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Banco.cs*",
+              "RelativeToolTip": "Banco.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T20:53:11.718Z",
               "EditorCaption": ""
