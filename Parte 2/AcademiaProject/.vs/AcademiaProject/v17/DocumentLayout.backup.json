@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,11 +27,7 @@
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_novousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +38,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "F_GestaoUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoUsuarios.cs",
+              "RelativeDocumentMoniker": "F_GestaoUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoUsuarios.cs",
+              "RelativeToolTip": "F_GestaoUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:59:30.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAawFUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:54:07.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:54:04.803Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "F_GestaoUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoUsuarios.cs",
+              "RelativeDocumentMoniker": "F_GestaoUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoUsuarios.cs [Design]",
+              "RelativeToolTip": "F_GestaoUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:52:50.181Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Usuario.cs",
               "RelativeDocumentMoniker": "Usuario.cs",
@@ -43,19 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "F_NovoUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoUsuario.cs",
-              "RelativeDocumentMoniker": "F_NovoUsuario.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoUsuario.cs [Design]",
-              "RelativeToolTip": "F_NovoUsuario.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T02:12:09.856Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "F_NovoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoUsuario.cs",
               "RelativeDocumentMoniker": "F_NovoUsuario.cs",
@@ -68,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Banco.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Banco.cs",
               "RelativeDocumentMoniker": "Banco.cs",
