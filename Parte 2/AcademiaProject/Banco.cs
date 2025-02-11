@@ -107,6 +107,49 @@ namespace AcademiaProject
                 throw ex;
             }
         }
+
+        public static void AttUser(Usuario u)
+        {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+                var cmd = vcon.CreateCommand();
+                {
+                    cmd.CommandText = "UPDATE tb_users SET T_NAME='"+u.nome+"', T_USERNAME='"+u.username+"', T_PASSWORD='"+u.senha+"',T_STATUS='"+u.status+"', N_USERLEVEL="+u.nivel+"WHERE N_ID="+u.id;
+                    da = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                    cmd.ExecuteNonQuery();
+                    vcon.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public static void DeleteUser(string id)
+        {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+                var cmd = vcon.CreateCommand();
+                {
+                    cmd.CommandText = "DELETE FROM tb_users WHERE N_ID="+id;
+                    da = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                    cmd.ExecuteNonQuery();
+                    vcon.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         //Fim das Funções do Form F_GestaoUsuarios
 
         ////Funções do Form F_NovoUsuario

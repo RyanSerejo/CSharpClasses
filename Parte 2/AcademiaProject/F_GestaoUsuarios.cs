@@ -47,5 +47,39 @@ namespace AcademiaProject
             }
 
         }
+
+        private void btn_novo_Click(object sender, EventArgs e)
+        {
+            F_NovoUsuario f_NovoUsuario = new F_NovoUsuario();
+            f_NovoUsuario.ShowDialog();
+            dgv_usuarios.DataSource = Banco.GetUserIdName();
+
+        }
+
+        private void btn_salvar_Click(object sender, EventArgs e)
+        {
+            int line = dgv_usuarios.SelectedRows[0].Index;
+
+            Usuario u = new Usuario();
+            u.id = Convert.ToInt32(tb_id.Text);
+            u.nome = tb_nome.Text;
+            u.username = tb_username.Text;
+            u.senha = tb_senha.Text;
+            u.status = cb_status.Text;
+            u.nivel = Convert.ToInt32(Math.Round(n_nivel.Value,0));
+            Banco.AttUser(u);
+            //dgv_usuarios.DataSource = Banco.GetUserIdName();
+            //dgv_usuarios.CurrentCell = dgv_usuarios[0, line];
+            dgv_usuarios[1, line].Value = tb_nome.Text;
+        }
+
+        private void btn_excluir_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("Deseja mesmo excluir Usuário?", "Excluir?", MessageBoxButtons.YesNo);
+            if (res == DialogResult.Yes) { 
+                Banco.DeleteUser(tb_id.Text);
+                dgv_usuarios.Rows.Remove(dgv_usuarios.CurrentRow);
+            }
+        }
     }
 }
