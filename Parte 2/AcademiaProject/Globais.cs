@@ -20,5 +20,25 @@ namespace AcademiaProject
         T_STATUS
         N_USERLEVEL
          */
+
+        /*
+         SELECT 
+            tbt.n_idturma AS 'ID Turma', 
+            tbt.t_dscturma AS 'Desc. Turma', 
+            tbt.n_maxalunos AS 'Máx. Alunos', 
+            tbh.t_dschorario AS 'Horário', 
+            tbp.t_nomeprofessor AS 'Professor', 
+            CASE 
+                WHEN tbt.T_STATUS = 'A' THEN 'Ativa'
+                WHEN tbt.T_STATUS = 'P' THEN 'Paralisada'
+                WHEN tbt.T_STATUS = 'C' THEN 'Cancelada'
+            END as 'Status'
+        FROM 
+            tb_turmas AS tbt
+        INNER JOIN 
+            tb_horarios AS tbh ON tbh.n_idhorario = tbt.n_idhorario
+        INNER JOIN 
+            tb_professores AS tbp ON tbp.n_idprofessor = tbt.n_idprofessor
+         */
     }
 }
