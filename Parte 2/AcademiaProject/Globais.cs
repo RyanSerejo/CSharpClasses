@@ -12,6 +12,10 @@ namespace AcademiaProject
         public static Boolean logado = false;
         public static int nivel = 0;
 
+        public static string caminho = System.Environment.CurrentDirectory;
+        public static string nomeBanco = "banco_academia.db";
+        public static string caminhoBanco = caminho + @"\banco\";
+
         /*
         N_ID
         T_NAME

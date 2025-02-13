@@ -12,9 +12,60 @@ namespace AcademiaProject
     {
         private static SQLiteConnection conexao;
 
+        //Funções genéricas 
+        public static DataTable dql(string sql)
+        {//data query language (select)
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+                var cmd = vcon.CreateCommand();
+                {
+                    cmd.CommandText = sql;
+                    da = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                    da.Fill(dt);
+                    vcon.Close();
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void dml(string q, string msgOK=null, string msgERRO=null)//Data manipulation language
+        {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+                var cmd = vcon.CreateCommand();
+                cmd.CommandText = q;
+                da = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                cmd.ExecuteNonQuery();
+                vcon.Close();
+                if (msgOK != null) {
+                    MessageBox.Show(msgOK);
+                } 
+                
+            }
+            catch (Exception ex)
+            {
+                if (msgERRO != null)
+                {
+                    MessageBox.Show(msgERRO + "\n"+ ex.Message);
+                }
+                throw ex;
+            }
+        }
         private static SQLiteConnection ConexaoBanco()
         {
-            conexao = new SQLiteConnection("Data Source=C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\banco\\banco_academia.db");
+            conexao = new SQLiteConnection("Data Source="+Globais.caminhoBanco+Globais.nomeBanco);
             conexao.Open();
             return conexao;
         }
@@ -40,27 +91,6 @@ namespace AcademiaProject
             }
         }
 
-        public static DataTable Consulta(string sql) {
-            SQLiteDataAdapter da = null;
-            DataTable dt = new DataTable();
-
-            try
-            {
-                var vcon = ConexaoBanco();
-                var cmd = vcon.CreateCommand();
-                {
-                    cmd.CommandText = sql;
-                    da = new SQLiteDataAdapter(cmd.CommandText, vcon);
-                    da.Fill(dt);
-                    vcon.Close();
-                    return dt;
-                }
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
         //Funções do Form F_GestaoUsuarios
         public static DataTable GetUserIdName()
         {
@@ -117,12 +147,10 @@ namespace AcademiaProject
             {
                 var vcon = ConexaoBanco();
                 var cmd = vcon.CreateCommand();
-                {
-                    cmd.CommandText = "UPDATE tb_users SET T_NAME='"+u.nome+"', T_USERNAME='"+u.username+"', T_PASSWORD='"+u.senha+"',T_STATUS='"+u.status+"', N_USERLEVEL="+u.nivel+"WHERE N_ID="+u.id;
-                    da = new SQLiteDataAdapter(cmd.CommandText, vcon);
-                    cmd.ExecuteNonQuery();
-                    vcon.Close();
-                }
+                cmd.CommandText = "UPDATE tb_users SET T_NAME='"+u.nome+"', T_USERNAME='"+u.username+"', T_PASSWORD='"+u.senha+"',T_STATUS='"+u.status+"', N_USERLEVEL="+u.nivel+"WHERE N_ID="+u.id;
+                da = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                cmd.ExecuteNonQuery();
+                vcon.Close();
             }
             catch (Exception ex)
             {
