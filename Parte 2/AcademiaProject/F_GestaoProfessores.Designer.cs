@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_novo = new System.Windows.Forms.Button();
             this.btn_fechar = new System.Windows.Forms.Button();
             this.btn_salvar = new System.Windows.Forms.Button();
             this.btn_excluir = new System.Windows.Forms.Button();
             this.dgv_professores = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
             this.tb_idProfessor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.tb_nomeProfessor = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.mtb_telefone = new System.Windows.Forms.MaskedTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tb_nomeProfessor = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_professores)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +63,7 @@
             this.btn_novo.Location = new System.Drawing.Point(14, 3);
             this.btn_novo.Name = "btn_novo";
             this.btn_novo.Size = new System.Drawing.Size(123, 27);
-            this.btn_novo.TabIndex = 5;
+            this.btn_novo.TabIndex = 3;
             this.btn_novo.Text = "Novo";
             this.btn_novo.UseVisualStyleBackColor = true;
             this.btn_novo.Click += new System.EventHandler(this.btn_novo_Click);
@@ -74,7 +74,7 @@
             this.btn_fechar.Location = new System.Drawing.Point(400, 3);
             this.btn_fechar.Name = "btn_fechar";
             this.btn_fechar.Size = new System.Drawing.Size(102, 27);
-            this.btn_fechar.TabIndex = 8;
+            this.btn_fechar.TabIndex = 6;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
             this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
@@ -85,7 +85,7 @@
             this.btn_salvar.Location = new System.Drawing.Point(143, 3);
             this.btn_salvar.Name = "btn_salvar";
             this.btn_salvar.Size = new System.Drawing.Size(123, 27);
-            this.btn_salvar.TabIndex = 6;
+            this.btn_salvar.TabIndex = 4;
             this.btn_salvar.Text = "Salvar ";
             this.btn_salvar.UseVisualStyleBackColor = true;
             this.btn_salvar.Click += new System.EventHandler(this.btn_salvar_Click);
@@ -96,7 +96,7 @@
             this.btn_excluir.Location = new System.Drawing.Point(272, 3);
             this.btn_excluir.Name = "btn_excluir";
             this.btn_excluir.Size = new System.Drawing.Size(122, 27);
-            this.btn_excluir.TabIndex = 7;
+            this.btn_excluir.TabIndex = 5;
             this.btn_excluir.Text = "Excluir";
             this.btn_excluir.UseVisualStyleBackColor = true;
             this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
@@ -105,17 +105,18 @@
             // 
             this.dgv_professores.AllowUserToAddRows = false;
             this.dgv_professores.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_professores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_professores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_professores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_professores.EnableHeadersVisualStyles = false;
             this.dgv_professores.Location = new System.Drawing.Point(14, 47);
+            this.dgv_professores.MultiSelect = false;
             this.dgv_professores.Name = "dgv_professores";
             this.dgv_professores.ReadOnly = true;
             this.dgv_professores.RowHeadersVisible = false;
@@ -123,15 +124,6 @@
             this.dgv_professores.Size = new System.Drawing.Size(488, 424);
             this.dgv_professores.TabIndex = 14;
             this.dgv_professores.SelectionChanged += new System.EventHandler(this.dgv_professores_SelectionChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(117, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Professor";
             // 
             // tb_idProfessor
             // 
@@ -151,13 +143,6 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "ID";
             // 
-            // tb_nomeProfessor
-            // 
-            this.tb_nomeProfessor.Location = new System.Drawing.Point(120, 21);
-            this.tb_nomeProfessor.Name = "tb_nomeProfessor";
-            this.tb_nomeProfessor.Size = new System.Drawing.Size(225, 20);
-            this.tb_nomeProfessor.TabIndex = 16;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -173,7 +158,23 @@
             this.mtb_telefone.Mask = "(99)9999-9999";
             this.mtb_telefone.Name = "mtb_telefone";
             this.mtb_telefone.Size = new System.Drawing.Size(151, 20);
-            this.mtb_telefone.TabIndex = 18;
+            this.mtb_telefone.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(117, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Professor";
+            // 
+            // tb_nomeProfessor
+            // 
+            this.tb_nomeProfessor.Location = new System.Drawing.Point(120, 21);
+            this.tb_nomeProfessor.Name = "tb_nomeProfessor";
+            this.tb_nomeProfessor.Size = new System.Drawing.Size(225, 20);
+            this.tb_nomeProfessor.TabIndex = 1;
             // 
             // F_GestaoProfessores
             // 
@@ -210,11 +211,11 @@
         private System.Windows.Forms.Button btn_salvar;
         private System.Windows.Forms.Button btn_excluir;
         private System.Windows.Forms.DataGridView dgv_professores;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tb_idProfessor;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tb_nomeProfessor;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MaskedTextBox mtb_telefone;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tb_nomeProfessor;
     }
 }
