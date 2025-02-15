@@ -50,7 +50,7 @@ namespace AcademiaProject
                     N_IDHORARIO="+ vid;
                 dt = Banco.dql(vquery);
                 tb_idHorario.Text = dt.Rows[0].Field<Int64>("N_IDHORARIO").ToString();
-                mtb_dscHorario.Text = dt.Rows[0].Field<string>("t_DSCHORARIO");
+                mtb_dscHorario.Text = dt.Rows[0].Field<string>("T_DSCHORARIO");
             }
         }
 
@@ -95,6 +95,8 @@ namespace AcademiaProject
                 Banco.dml(vquery);
                 dgv_horarios.Rows.Remove(dgv_horarios.CurrentRow);
             }
+            tb_idHorario.Clear();
+            mtb_dscHorario.Clear();
         }
 
         private void btn_fechar_Click(object sender, EventArgs e)

@@ -83,5 +83,11 @@ namespace AcademiaProject
             F_Horarios f_horarios = new F_Horarios();
             abreForm(2, f_horarios);
         }
+
+        private void professoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_GestaoProfessores f_GestaoProfessores = new F_GestaoProfessores();
+            abreForm(2, f_GestaoProfessores);
+        }
     }
 }

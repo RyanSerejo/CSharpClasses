@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_gestaoprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaoprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_gestaoprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaoprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\globais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:globais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,30 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwEcAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "F_GestaoProfessores.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoProfessores.cs",
+              "RelativeDocumentMoniker": "F_GestaoProfessores.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoProfessores.cs",
+              "RelativeToolTip": "F_GestaoProfessores.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAEwGYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T00:04:51.596Z",
+              "WhenOpened": "2025-02-15T00:09:52.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "F_Horarios.cs",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Horarios.cs",
               "RelativeDocumentMoniker": "F_Horarios.cs",
               "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Horarios.cs",
               "RelativeToolTip": "F_Horarios.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAnwEkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwGEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:53:44.385Z",
               "EditorCaption": ""
@@ -69,6 +57,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "F_GestaoProfessores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoProfessores.cs",
+              "RelativeDocumentMoniker": "F_GestaoProfessores.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoProfessores.cs [Design]",
+              "RelativeToolTip": "F_GestaoProfessores.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:58:32.238Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "F_Horarios.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Horarios.cs",
               "RelativeDocumentMoniker": "F_Horarios.cs",
@@ -77,57 +77,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:38:45.985Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "F_Login.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Login.cs",
-              "RelativeDocumentMoniker": "F_Login.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Login.cs",
-              "RelativeToolTip": "F_Login.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T23:36:42.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "F_Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Login.cs",
-              "RelativeDocumentMoniker": "F_Login.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_Login.cs [Design]",
-              "RelativeToolTip": "F_Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T23:36:38.701Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Banco.cs",
-              "RelativeDocumentMoniker": "Banco.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Banco.cs",
-              "RelativeToolTip": "Banco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T20:53:11.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Globais.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Globais.cs",
-              "RelativeDocumentMoniker": "Globais.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Globais.cs",
-              "RelativeToolTip": "Globais.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T00:23:40.866Z",
-              "EditorCaption": ""
             }
           ]
         }

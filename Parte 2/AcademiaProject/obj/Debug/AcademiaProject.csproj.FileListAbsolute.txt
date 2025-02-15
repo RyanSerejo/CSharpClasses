@@ -21,3 +21,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\Acade
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_NovoUsuario.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_GestaoUsuarios.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_Horarios.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_GestaoProfessores.resources
