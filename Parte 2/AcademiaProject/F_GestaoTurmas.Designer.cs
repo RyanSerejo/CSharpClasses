@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_turmas = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_imprimirTurma = new System.Windows.Forms.Button();
             this.btn_novaTurma = new System.Windows.Forms.Button();
             this.btn_fechar = new System.Windows.Forms.Button();
             this.btn_salvarEdicoes = new System.Windows.Forms.Button();
             this.btn_excluirTurma = new System.Windows.Forms.Button();
-            this.btn_imprimirTurma = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.cb_professor = new System.Windows.Forms.ComboBox();
             this.cb_horario = new System.Windows.Forms.ComboBox();
@@ -53,14 +53,14 @@
             // 
             this.dgv_turmas.AllowUserToAddRows = false;
             this.dgv_turmas.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_turmas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_turmas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_turmas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_turmas.EnableHeadersVisualStyles = false;
             this.dgv_turmas.Location = new System.Drawing.Point(12, 12);
@@ -84,6 +84,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(635, 35);
             this.panel1.TabIndex = 16;
+            // 
+            // btn_imprimirTurma
+            // 
+            this.btn_imprimirTurma.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_imprimirTurma.Location = new System.Drawing.Point(398, 5);
+            this.btn_imprimirTurma.Name = "btn_imprimirTurma";
+            this.btn_imprimirTurma.Size = new System.Drawing.Size(122, 27);
+            this.btn_imprimirTurma.TabIndex = 8;
+            this.btn_imprimirTurma.Text = "Imprimir Turma";
+            this.btn_imprimirTurma.UseVisualStyleBackColor = true;
             // 
             // btn_novaTurma
             // 
@@ -124,16 +134,6 @@
             this.btn_excluirTurma.TabIndex = 7;
             this.btn_excluirTurma.Text = "Excluir Turma";
             this.btn_excluirTurma.UseVisualStyleBackColor = true;
-            // 
-            // btn_imprimirTurma
-            // 
-            this.btn_imprimirTurma.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_imprimirTurma.Location = new System.Drawing.Point(398, 5);
-            this.btn_imprimirTurma.Name = "btn_imprimirTurma";
-            this.btn_imprimirTurma.Size = new System.Drawing.Size(122, 27);
-            this.btn_imprimirTurma.TabIndex = 8;
-            this.btn_imprimirTurma.Text = "Imprimir Turma";
-            this.btn_imprimirTurma.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -223,6 +223,7 @@
             this.Name = "F_GestaoTurmas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestão de Turmas";
+            this.Load += new System.EventHandler(this.F_GestaoTurmas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_turmas)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.n_maxAlunos)).EndInit();
