@@ -13,6 +13,8 @@ namespace AcademiaProject
     public partial class F_GestaoTurmas: Form
     {
         string idSelecionado;
+        int modo = 1;// 1 = Edição 2 = inserção
+        string vqueryDGV;
         public F_GestaoTurmas()
         {
             InitializeComponent();
@@ -20,7 +22,7 @@ namespace AcademiaProject
 
         private void F_GestaoTurmas_Load(object sender, EventArgs e)
         {
-            string vqueryDGV = @"
+             vqueryDGV = @"
                 SELECT 
                     tbt.N_IDTURMA as 'ID',
                     tbt.T_DSCTURMA as 'Turma',
@@ -112,27 +114,49 @@ namespace AcademiaProject
             n_maxAlunos.Value = 0;
             cb_status.SelectedIndex = -1;
             cb_horario.SelectedIndex = -1;
+            modo = 2;
             
         }
 
         private void btn_salvarEdicoes_Click(object sender, EventArgs e)
         {
             int linha = dgv_turmas.SelectedRows[0].Index;
-            string queryAttTurma = String.Format(@"
+            string queryTurma = "";
+            string msg = "";
+            if (modo == 1)
+            {
+                queryTurma = String.Format(@"
             UPDATE
                 tb_turmas
             SET
                 T_DSCTURMA='{0}',
                 N_IDPROFESSOR={1},
                 N_IDHORARIO={2},
-                T_MAXALUNOS={3},
+                N_MAXALUNOS={3},
                 T_STATUS='{4}'
             WHERE
-                N_IDTURMA={5}", tb_dscTurma.Text, cb_professor.SelectedValue, cb_horario.SelectedValue,Int32.Parse(Math.Round(n_maxAlunos.Value,0).ToString()), cb_status.SelectedValue, idSelecionado);
-            Banco.dml(queryAttTurma);
-            dgv_turmas[1, linha].Value = tb_dscTurma.Text;
-            dgv_turmas[2, linha].Value = cb_horario.Text;
-            MessageBox.Show("Dados gravados");
+                N_IDTURMA={5}", tb_dscTurma.Text, cb_professor.SelectedValue, cb_horario.SelectedValue, Int32.Parse(Math.Round(n_maxAlunos.Value, 0).ToString()), cb_status.SelectedValue, idSelecionado);
+                msg = "Dados atualizados";
+            }
+            else
+            {
+                queryTurma = String.Format(@"
+            INSERT INTO
+                tb_turmas
+                (T_DSCTURMA, N_IDPROFESSOR, N_IDHORARIO, N_MAXALUNOS, T_STATUS) VALUES ('{0}',{1},{2},{3},'{4}')", tb_dscTurma.Text, cb_professor.SelectedValue, cb_horario.SelectedValue, Int32.Parse(Math.Round(n_maxAlunos.Value, 0).ToString()), cb_status.SelectedValue);
+                msg = "Dados inseridos";
+            }
+            Banco.dml(queryTurma);
+            if(modo == 1)
+            {
+                dgv_turmas[1, linha].Value = tb_dscTurma.Text;
+                dgv_turmas[2, linha].Value = cb_horario.Text;
+            }else
+            {
+                dgv_turmas.DataSource = Banco.dql(vqueryDGV);
+            }
+            
+            MessageBox.Show(msg);
         }
 
         private void btn_excluirTurma_Click(object sender, EventArgs e)
