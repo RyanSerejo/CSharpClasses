@@ -102,7 +102,7 @@ namespace AcademiaProject
                 n_maxAlunos.Value = dt.Rows[0].Field<Int64>("N_MAXALUNOS");
                 cb_status.SelectedValue = dt.Rows[0].Field<string>("T_STATUS");
                 cb_horario.SelectedValue = dt.Rows[0].Field<Int64>("N_IDHORARIO");
-
+                tb_vagas.Text = CalcVagas();
 
             }
         }
@@ -151,12 +151,30 @@ namespace AcademiaProject
             {
                 dgv_turmas[1, linha].Value = tb_dscTurma.Text;
                 dgv_turmas[2, linha].Value = cb_horario.Text;
+                tb_vagas.Text = CalcVagas();
             }else
             {
                 dgv_turmas.DataSource = Banco.dql(vqueryDGV);
             }
             
             MessageBox.Show(msg);
+        }
+
+        private string CalcVagas()
+        {
+            //Calculo de vagas
+            string queryVagas = String.Format(@"
+            SELECT
+                count(N_IDALUNO) as 'countVagas'
+            FROM
+                tb_alunos
+            WHERE
+                T_STATUS='A' and N_IDTURMA={0}", idSelecionado);
+
+            DataTable dt = Banco.dql(queryVagas);
+            int vagas = Int32.Parse(Math.Round(n_maxAlunos.Value, 0).ToString());
+            vagas -= Int32.Parse(dt.Rows[0].Field<Int64>("countVagas").ToString());
+            return vagas.ToString();
         }
 
         private void btn_excluirTurma_Click(object sender, EventArgs e)
