@@ -23,3 +23,7 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\Acade
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_Horarios.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_GestaoProfessores.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_GestaoTurmas.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itextsharp.dll
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itextsharp.xml
