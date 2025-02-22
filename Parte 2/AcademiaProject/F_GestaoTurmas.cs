@@ -208,9 +208,13 @@ namespace AcademiaProject
             FileStream arquivoPDF = new FileStream(nomeArquivo, FileMode.Create);
             Document doc = new Document(PageSize.A4);
             PdfWriter escritorPDF = PdfWriter.GetInstance(doc, arquivoPDF);
+
+
+            iTextSharp.text.Image logo = iTextSharp.text.Image.GetInstance(Globais.caminho + @"\logo.jpeg");
+            logo.ScaleToFit(140f, 120f);
+            logo.Alignment = Element.ALIGN_LEFT;
             
             string dados = "";
-
             Paragraph paragrafo1 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
             paragrafo1.Alignment = Element.ALIGN_CENTER;
             paragrafo1.Add("CFB Cursos \n");
@@ -222,12 +226,44 @@ namespace AcademiaProject
 
             Paragraph paragrafo2 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
             paragrafo2.Alignment = Element.ALIGN_LEFT;
-            texto = "Texto do segundo parágrafo.";
+            texto = "Texto do segundo parágrafo.\n\n";
             paragrafo2.Add(texto);
 
+            //adiconando a tabela
+            PdfPTable tabela = new PdfPTable(3);// 3 colunas
+            tabela.DefaultCell.FixedHeight = 20;
+
+            PdfPCell celula1 = new PdfPCell();
+            celula1.Colspan = 3;//Linha 1 mesclada
+            //celula.Rotation = 90;
+            celula1.AddElement(logo);
+            tabela.AddCell(celula1);
+
+            tabela.AddCell("Código");
+            tabela.AddCell("Produto");
+            tabela.AddCell("Preço");
+
+            tabela.AddCell("01");
+            tabela.AddCell("Mouse");
+            tabela.AddCell("25,00");
+
+            tabela.AddCell("02");
+            tabela.AddCell("Teclado");
+            tabela.AddCell("65,00");
+
+            PdfPCell celula2 = new PdfPCell(new Phrase("Tabela de Preços"));
+            celula2.Rotation = 0;
+            celula2.Colspan = 3;//1 linha mesclada
+            celula2.FixedHeight = 40;
+            celula2.HorizontalAlignment = Element.ALIGN_CENTER;
+            celula2.VerticalAlignment = Element.ALIGN_MIDDLE;
+            tabela.AddCell(celula2);
+
             doc.Open();
+            doc.Add(logo);
             doc.Add(paragrafo1);
             doc.Add(paragrafo2);
+            doc.Add(tabela);
             doc.Close();
 
         }
