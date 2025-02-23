@@ -217,47 +217,36 @@ namespace AcademiaProject
             string dados = "";
             Paragraph paragrafo1 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
             paragrafo1.Alignment = Element.ALIGN_CENTER;
-            paragrafo1.Add("CFB Cursos \n");
-            paragrafo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Italic);
-            paragrafo1.Add("Curso de C# \n");
-            string texto = "youtube.com/cfbcursos";
-            paragrafo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Italic);
-            paragrafo1.Add(texto + "\n");
+            paragrafo1.Add("Gym Project\n");
+           
 
             Paragraph paragrafo2 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
             paragrafo2.Alignment = Element.ALIGN_LEFT;
-            texto = "Texto do segundo parágrafo.\n\n";
-            paragrafo2.Add(texto);
+            paragrafo2.Add("Relatório de Turmas\n\n");
 
             //adiconando a tabela
             PdfPTable tabela = new PdfPTable(3);// 3 colunas
             tabela.DefaultCell.FixedHeight = 20;
 
-            PdfPCell celula1 = new PdfPCell();
+            /*PdfPCell celula1 = new PdfPCell();
             celula1.Colspan = 3;//Linha 1 mesclada
             //celula.Rotation = 90;
             celula1.AddElement(logo);
             tabela.AddCell(celula1);
+            */
 
-            tabela.AddCell("Código");
-            tabela.AddCell("Produto");
-            tabela.AddCell("Preço");
+            tabela.AddCell("ID Turma");
+            tabela.AddCell("Turma");
+            tabela.AddCell("Horário");
 
-            tabela.AddCell("01");
-            tabela.AddCell("Mouse");
-            tabela.AddCell("25,00");
+            DataTable dtTurmas = Banco.dql(vqueryDGV);
+            for (int i = 0; i < dtTurmas.Rows.Count; i++)
+            {
+                tabela.AddCell(dtTurmas.Rows[i].Field<Int64>("ID").ToString());
+                tabela.AddCell(dtTurmas.Rows[i].Field<string>("Turma"));
+                tabela.AddCell(dtTurmas.Rows[i].Field<string>("Horário"));
 
-            tabela.AddCell("02");
-            tabela.AddCell("Teclado");
-            tabela.AddCell("65,00");
-
-            PdfPCell celula2 = new PdfPCell(new Phrase("Tabela de Preços"));
-            celula2.Rotation = 0;
-            celula2.Colspan = 3;//1 linha mesclada
-            celula2.FixedHeight = 40;
-            celula2.HorizontalAlignment = Element.ALIGN_CENTER;
-            celula2.VerticalAlignment = Element.ALIGN_MIDDLE;
-            tabela.AddCell(celula2);
+            }
 
             doc.Open();
             doc.Add(logo);
