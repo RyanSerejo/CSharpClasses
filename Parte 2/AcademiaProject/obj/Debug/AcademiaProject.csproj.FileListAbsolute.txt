@@ -27,3 +27,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\Bounc
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itextsharp.dll
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itextsharp.xml
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_NovoAluno.resources

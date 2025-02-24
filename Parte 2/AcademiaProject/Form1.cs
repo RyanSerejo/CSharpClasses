@@ -75,7 +75,8 @@ namespace AcademiaProject
 
         private void novoAlunoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //abreForm();
+            F_NovoAluno f_NovoAluno = new F_NovoAluno();
+            abreForm(1, f_NovoAluno);
         }
 
         private void horáriosToolStripMenuItem_Click(object sender, EventArgs e)
