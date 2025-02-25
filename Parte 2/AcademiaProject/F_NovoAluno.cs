@@ -76,5 +76,16 @@ namespace AcademiaProject
             btn_gravar.Enabled = false;
             btn_novo.Enabled = true;
         }
+
+        private void btn_fechar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            F_SelecionarTurma f_SelecionarTurma = new F_SelecionarTurma(this);
+            f_SelecionarTurma.ShowDialog();
+        }
     }
 }

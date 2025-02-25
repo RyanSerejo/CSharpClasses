@@ -28,3 +28,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itext
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itextsharp.xml
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_NovoAluno.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_SelecionarTurma.resources
