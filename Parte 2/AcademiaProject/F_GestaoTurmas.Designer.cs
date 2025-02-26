@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_turmas = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_imprimirTurma = new System.Windows.Forms.Button();
@@ -57,14 +57,14 @@
             // 
             this.dgv_turmas.AllowUserToAddRows = false;
             this.dgv_turmas.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_turmas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_turmas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_turmas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_turmas.EnableHeadersVisualStyles = false;
             this.dgv_turmas.Location = new System.Drawing.Point(12, 12);
@@ -87,7 +87,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 444);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(635, 35);
+            this.panel1.Size = new System.Drawing.Size(654, 35);
             this.panel1.TabIndex = 16;
             // 
             // btn_imprimirTurma
@@ -115,9 +115,9 @@
             // btn_fechar
             // 
             this.btn_fechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_fechar.Location = new System.Drawing.Point(527, 5);
+            this.btn_fechar.Location = new System.Drawing.Point(526, 5);
             this.btn_fechar.Name = "btn_fechar";
-            this.btn_fechar.Size = new System.Drawing.Size(102, 27);
+            this.btn_fechar.Size = new System.Drawing.Size(122, 27);
             this.btn_fechar.TabIndex = 10;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@
             this.cb_professor.FormattingEnabled = true;
             this.cb_professor.Location = new System.Drawing.Point(360, 68);
             this.cb_professor.Name = "cb_professor";
-            this.cb_professor.Size = new System.Drawing.Size(268, 21);
+            this.cb_professor.Size = new System.Drawing.Size(288, 21);
             this.cb_professor.TabIndex = 2;
             // 
             // cb_horario
@@ -167,7 +167,7 @@
             this.cb_horario.FormattingEnabled = true;
             this.cb_horario.Location = new System.Drawing.Point(360, 189);
             this.cb_horario.Name = "cb_horario";
-            this.cb_horario.Size = new System.Drawing.Size(268, 21);
+            this.cb_horario.Size = new System.Drawing.Size(288, 21);
             this.cb_horario.TabIndex = 5;
             // 
             // label1
@@ -182,7 +182,7 @@
             // cb_status
             // 
             this.cb_status.FormattingEnabled = true;
-            this.cb_status.Location = new System.Drawing.Point(485, 131);
+            this.cb_status.Location = new System.Drawing.Point(505, 131);
             this.cb_status.Name = "cb_status";
             this.cb_status.Size = new System.Drawing.Size(143, 21);
             this.cb_status.TabIndex = 4;
@@ -190,7 +190,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(483, 115);
+            this.label3.Location = new System.Drawing.Point(502, 115);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 21;
@@ -225,7 +225,7 @@
             // 
             this.tb_dscTurma.Location = new System.Drawing.Point(359, 25);
             this.tb_dscTurma.Name = "tb_dscTurma";
-            this.tb_dscTurma.Size = new System.Drawing.Size(268, 20);
+            this.tb_dscTurma.Size = new System.Drawing.Size(289, 20);
             this.tb_dscTurma.TabIndex = 27;
             // 
             // tb_vagas
@@ -251,7 +251,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 479);
+            this.ClientSize = new System.Drawing.Size(654, 479);
             this.Controls.Add(this.tb_vagas);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tb_dscTurma);
