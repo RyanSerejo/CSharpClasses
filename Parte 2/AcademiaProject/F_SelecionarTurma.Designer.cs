@@ -51,6 +51,7 @@
             this.dgv_turmas.EnableHeadersVisualStyles = false;
             this.dgv_turmas.Location = new System.Drawing.Point(12, 12);
             this.dgv_turmas.Name = "dgv_turmas";
+            this.dgv_turmas.ReadOnly = true;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -63,6 +64,7 @@
             this.dgv_turmas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_turmas.Size = new System.Drawing.Size(776, 426);
             this.dgv_turmas.TabIndex = 0;
+            this.dgv_turmas.DoubleClick += new System.EventHandler(this.dgv_turmas_DoubleClick);
             // 
             // F_SelecionarTurma
             // 

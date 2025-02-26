@@ -36,6 +36,7 @@ namespace AcademiaProject
             tb_nome.Clear();
             cb_status.SelectedIndex = 0;
             tb_nome.Focus();
+            tb_turma.Clear();
             btn_cancelar.Enabled = true;
             btn_gravar.Enabled = true;
             btn_novo.Enabled = false;
@@ -48,6 +49,7 @@ namespace AcademiaProject
             mtb_telefone.Clear();
             cb_status.Enabled = false;
             tb_nome.Clear();
+            tb_turma.Clear();
             cb_status.SelectedIndex = 0;
             tb_nome.Focus();
             btn_cancelar.Enabled = false;
@@ -67,9 +69,7 @@ namespace AcademiaProject
 
             tb_nome.Enabled = false;
             mtb_telefone.Enabled = false;
-            mtb_telefone.Clear();
             cb_status.Enabled = false;
-            tb_nome.Clear();
             cb_status.SelectedIndex = 0;
             tb_nome.Focus();
             btn_cancelar.Enabled = false;

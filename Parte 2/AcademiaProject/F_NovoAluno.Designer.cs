@@ -248,7 +248,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cb_status;
-        private System.Windows.Forms.TextBox tb_turma;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
@@ -259,5 +258,6 @@
         private System.Windows.Forms.Button btn_fechar;
         private System.Windows.Forms.Button btn_gravar;
         private System.Windows.Forms.Button btn_cancelar;
+        public System.Windows.Forms.TextBox tb_turma;
     }
 }
