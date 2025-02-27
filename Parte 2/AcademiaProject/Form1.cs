@@ -96,5 +96,11 @@ namespace AcademiaProject
             F_GestaoTurmas f_GestaoTurmas = new F_GestaoTurmas();
             abreForm(2, f_GestaoTurmas);
         }
+
+        private void gestãoAlunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_GestaoAlunos f_GestaoAlunos = new F_GestaoAlunos();
+            abreForm(2, f_GestaoAlunos);
+        }
     }
 }

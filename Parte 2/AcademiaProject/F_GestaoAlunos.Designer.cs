@@ -73,6 +73,7 @@
             this.dgv_alunos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_alunos.Size = new System.Drawing.Size(339, 427);
             this.dgv_alunos.TabIndex = 16;
+            this.dgv_alunos.SelectionChanged += new System.EventHandler(this.dgv_alunos_SelectionChanged);
             // 
             // panel1
             // 
@@ -105,6 +106,7 @@
             this.btn_salvarEdicoes.TabIndex = 6;
             this.btn_salvarEdicoes.Text = "Salvar Edições";
             this.btn_salvarEdicoes.UseVisualStyleBackColor = true;
+            this.btn_salvarEdicoes.Click += new System.EventHandler(this.btn_salvarEdicoes_Click);
             // 
             // btn_fechar
             // 
@@ -126,6 +128,7 @@
             this.btn_excluirAluno.TabIndex = 7;
             this.btn_excluirAluno.Text = "Excluir Aluno";
             this.btn_excluirAluno.UseVisualStyleBackColor = true;
+            this.btn_excluirAluno.Click += new System.EventHandler(this.btn_excluirAluno_Click);
             // 
             // tb_nome
             // 

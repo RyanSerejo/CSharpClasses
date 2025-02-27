@@ -37,6 +37,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.alunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestãoAlunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
@@ -49,7 +50,6 @@
             this.lOGINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lOGONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lOGOFFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestãoAlunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledLogado)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -144,6 +144,13 @@
             this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
             this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
             // 
+            // gestãoAlunosToolStripMenuItem
+            // 
+            this.gestãoAlunosToolStripMenuItem.Name = "gestãoAlunosToolStripMenuItem";
+            this.gestãoAlunosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestãoAlunosToolStripMenuItem.Text = "Gestão Alunos";
+            this.gestãoAlunosToolStripMenuItem.Click += new System.EventHandler(this.gestãoAlunosToolStripMenuItem_Click);
+            // 
             // usuáriosToolStripMenuItem
             // 
             this.usuáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -234,12 +241,6 @@
             this.lOGOFFToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.lOGOFFToolStripMenuItem.Text = "Logoff";
             this.lOGOFFToolStripMenuItem.Click += new System.EventHandler(this.lOGOFFToolStripMenuItem_Click);
-            // 
-            // gestãoAlunosToolStripMenuItem
-            // 
-            this.gestãoAlunosToolStripMenuItem.Name = "gestãoAlunosToolStripMenuItem";
-            this.gestãoAlunosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gestãoAlunosToolStripMenuItem.Text = "Gestão Alunos";
             // 
             // Form1
             // 

@@ -29,3 +29,4 @@ C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\Bounc
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\bin\Debug\itextsharp.xml
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_NovoAluno.resources
 C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_SelecionarTurma.resources
+C:\Users\Ryan\Documents\C#\CSharpClasses\Parte 2\AcademiaProject\obj\Debug\AcademiaProject.F_GestaoAlunos.resources

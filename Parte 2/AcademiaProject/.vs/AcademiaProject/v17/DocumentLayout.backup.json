@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_selecionarturma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_selecionarturma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\f_gestaoalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaoalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_novoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_novoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_gestaoalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_gestaoalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_novoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_novoaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|c:\\users\\ryan\\documents\\c#\\csharpclasses\\parte 2\\academiaproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\f_selecionarturma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:f_selecionarturma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51FA41B0-EC48-4EDA-B674-BA7A5E42508B}|AcademiaProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "F_NovoAluno.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoAluno.cs",
-              "RelativeDocumentMoniker": "F_NovoAluno.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoAluno.cs",
-              "RelativeToolTip": "F_NovoAluno.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAArwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T18:28:37.631Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "F_NovoAluno.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoAluno.cs",
-              "RelativeDocumentMoniker": "F_NovoAluno.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_NovoAluno.cs [Design]",
-              "RelativeToolTip": "F_NovoAluno.cs [Design]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAArwGYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T18:28:11.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "F_SelecionarTurma.cs",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_SelecionarTurma.cs",
-              "RelativeDocumentMoniker": "F_SelecionarTurma.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_SelecionarTurma.cs",
-              "RelativeToolTip": "F_SelecionarTurma.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAArwD0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T18:28:47.88Z",
+              "WhenOpened": "2025-02-27T19:26:55.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "F_SelecionarTurma.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_SelecionarTurma.cs",
-              "RelativeDocumentMoniker": "F_SelecionarTurma.cs",
-              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_SelecionarTurma.cs [Design]",
-              "RelativeToolTip": "F_SelecionarTurma.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "F_GestaoAlunos.cs",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoAlunos.cs",
+              "RelativeDocumentMoniker": "F_GestaoAlunos.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoAlunos.cs",
+              "RelativeToolTip": "F_GestaoAlunos.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAWwGoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T17:29:58.439Z"
+              "WhenOpened": "2025-02-26T18:33:55.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "F_GestaoAlunos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoAlunos.cs",
+              "RelativeDocumentMoniker": "F_GestaoAlunos.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\F_GestaoAlunos.cs [Design]",
+              "RelativeToolTip": "F_GestaoAlunos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:22:36.284Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Ryan\\Documents\\C#\\CSharpClasses\\Parte 2\\AcademiaProject\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:22:02.304Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
