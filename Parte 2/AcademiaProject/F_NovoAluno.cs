@@ -13,6 +13,10 @@ namespace AcademiaProject
 {
     public partial class F_NovoAluno: Form
     {
+        string origemCompleto = "";
+        string foto = "";
+        string pastaDestino = Globais.caminhoFotos;
+        string destinoCompleto = "";
         public F_NovoAluno()
         {
             InitializeComponent();
@@ -60,11 +64,34 @@ namespace AcademiaProject
 
         private void btn_gravar_Click(object sender, EventArgs e)
         {
+            if(destinoCompleto == "")
+            {
+                if(MessageBox.Show("Sem foto selecionada, deseja continuar?", "ERRO", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    return;
+                }
+            }
+            if(destinoCompleto != "")
+            {
+                System.IO.File.Copy(origemCompleto, destinoCompleto, true);
+                if (File.Exists(destinoCompleto))
+                {
+                    pb_foto.ImageLocation = destinoCompleto;
+                }
+                else
+                {
+                if(MessageBox.Show("Erro ao localizar foto, deseja continuar?", "ERRO", MessageBoxButtons.YesNo) == DialogResult.No)
+                    {
+                        return;
+                    }
+                }
+            }
+
             string queryInsertAluno = String.Format(@"
                 INSERT INTO tb_alunos
-                (T_NOMEALUNO, T_TELEFONE, T_STATUS, N_IDTURMA)
-                VALUES ('{0}', '{1}', '{2}', {3})
-            ", tb_nome.Text, mtb_telefone.Text, cb_status.SelectedValue, tb_turma.Tag.ToString());
+                (T_NOMEALUNO, T_TELEFONE, T_STATUS, N_IDTURMA, T_FOTO)
+                VALUES ('{0}', '{1}', '{2}', {3}, '{4}')
+            ", tb_nome.Text, mtb_telefone.Text, cb_status.SelectedValue, tb_turma.Tag.ToString(), destinoCompleto);//lembrar que quando a variável vai ser do tipo texto usar '';
             Banco.dml(queryInsertAluno);
             MessageBox.Show("Novo Aluno inserido");
 
@@ -76,6 +103,7 @@ namespace AcademiaProject
             btn_cancelar.Enabled = false;
             btn_gravar.Enabled = false;
             btn_novo.Enabled = true;
+            pb_foto.ImageLocation = destinoCompleto;
         }
 
         private void btn_fechar_Click(object sender, EventArgs e)
@@ -91,10 +119,10 @@ namespace AcademiaProject
 
         private void btn_addFoto_Click(object sender, EventArgs e)
         {
-            string origemCompleto = "";
-            string foto = "";
-            string pastaDestino = Globais.caminhoFotos;
-            string destinoCompleto = "";
+            origemCompleto = "";
+            foto = "";
+            pastaDestino = Globais.caminhoFotos;
+            destinoCompleto = "";
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -109,15 +137,7 @@ namespace AcademiaProject
                     return;
                 }
             }
-            System.IO.File.Copy(origemCompleto, destinoCompleto, true);
-            if (File.Exists(destinoCompleto))
-            {
-                pb_foto.ImageLocation = destinoCompleto;
-            }
-            else
-            {
-                MessageBox.Show("Arquivo não copiado");
-            }
+            pb_foto.ImageLocation = origemCompleto;
         }
     }
 }

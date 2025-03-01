@@ -220,7 +220,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "JPG(*.jpg)|*.jpg|PNG(*.png)|*.png";
+            this.openFileDialog1.Filter = "JPG(*.jpg)|*.jpg| PNG(*.png)|*.png";
             // 
             // pb_foto
             // 
