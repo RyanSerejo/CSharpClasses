@@ -11,8 +11,8 @@ namespace AcademiaProject
         public static string versao = "1.0";
         public static Boolean logado = false;
         public static int nivel = 0;
-
-        public static string caminho = System.Environment.CurrentDirectory;
+        //public static string caminho = System.Environment.CurrentDirectory;
+        public static string caminho = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
         public static string nomeBanco = "banco_academia.db";
         public static string caminhoBanco = caminho + @"\banco\";
         public static string caminhoFotos = caminho + @"\fotos\";
